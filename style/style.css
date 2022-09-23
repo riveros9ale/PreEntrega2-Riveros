@@ -558,6 +558,11 @@ footer {
 
 .products-list .product-item img {
     width: 100%;
+    opacity: 0.5;
+}
+
+.products-list .product-item img:hover {
+    opacity: 1;
 }
 
 .products-list .product-item a {
