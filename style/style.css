@@ -253,6 +253,7 @@ footer {
         align-items: center;
         display: grid;
         grid-template-areas:
+            "noticiasindex"
             "subnoticia1"
             "subnoticia2"
             "subnoticia3";
