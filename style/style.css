@@ -76,11 +76,6 @@ footer {
     font-size: medium;
 }
 
-.escudo_footer img {
-    height: 60px;
-    width: 60px;
-}
-
 /*index*/
 
 .partidos {
@@ -258,6 +253,27 @@ footer {
             "subnoticia2"
             "subnoticia3";
         column-gap: 5px;
+        margin-left: 0px;
+    }
+
+    .subnoticia1 {
+        background-color: #f3f3f3;
+        border-radius: 10px;
+        grid-area: subnoticia1;
+        margin-bottom: 10px;
+    }
+    
+    .subnoticia2 {
+        background-color: #f3f3f3;
+        border-radius: 10px;
+        grid-area: subnoticia2;
+        margin-bottom: 10px;
+    }
+    
+    .subnoticia3 {
+        background-color: #f3f3f3;
+        border-radius: 10px;
+        grid-area: subnoticia3;
     }
 
     .sponsors {
