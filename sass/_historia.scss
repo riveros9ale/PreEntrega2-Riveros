@@ -1,0 +1,21 @@
+.historia_flex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    img {
+        border-radius: 20px;
+    }
+}
+
+.hover02 img {
+	width: 250px;
+	height: auto;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover02:hover img {
+	width: 450px;
+}

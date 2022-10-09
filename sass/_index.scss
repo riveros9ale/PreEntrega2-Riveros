@@ -1,0 +1,110 @@
+.partidos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(235, 235, 235, 0.536);
+    padding: 20px 70px 2px 70px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.proximospartidos {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proximospartidos1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.main {
+    display: grid;
+    grid-template-areas:
+        "noticias noticias sidebar"
+        "noticias noticias sidebar"
+        "subnoticias subnoticias sidebar"
+        "patrocinadores patrocinadores patrocinadores";
+    gap: 20px;
+}
+
+.noticias_index {
+    text-align: center;
+    grid-area: noticiasindex;
+}
+
+.noticiasMain {
+    grid-area: noticias;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.sidebarMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    grid-area: sidebar;
+}
+
+.sponsors {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: rgba(235, 235, 235, 0.536);
+    padding: 10px;
+    grid-area: patrocinadores;
+}
+
+.subnoticias {
+    justify-content: center;
+    align-items: stretch;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-areas:
+        "noticiasindex noticiasindex noticiasindex"
+        "subnoticia1 subnoticia2 subnoticia3";
+    column-gap: 10px;
+    .subnoticia1 {
+        background-color: #f3f3f3;
+        border-radius: 10px;
+        grid-area: subnoticia1;
+    }
+    .subnoticia2 {
+        background-color: #f3f3f3;
+        border-radius: 10px;
+        grid-area: subnoticia2;
+    }
+    .subnoticia3 {
+        background-color: #f3f3f3;
+        border-radius: 10px;
+        grid-area: subnoticia3;
+    }
+    .hrefSubnoticia>a {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .imagensubnoticia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            margin-top: 5px;
+            border-radius: 10px;
+        }
+    }
+    .h2_subnoticia {
+        text-align: center;
+        font-family: Heebo;
+        font-size: x-large;
+    }
+}
