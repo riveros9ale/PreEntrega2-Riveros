@@ -29,7 +29,18 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
-    gap: 15px;
+    grid-gap: 15px;
     margin-left: 50px;
     margin-bottom: 20px;
+    padding: 40px 0;
+    overflow: hidden;
+    img{
+        width: 100%;
+        vertical-align: top;
+        height: 300px;
+        object-fit: cover;
+    }
+    .gridmultimedi:hover img {
+        filter: blur(2px);
+    }
 }

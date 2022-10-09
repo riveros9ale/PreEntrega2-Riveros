@@ -33,15 +33,8 @@
     gap: 20px;
 }
 
-.noticias_index {
-    text-align: center;
-    grid-area: noticiasindex;
-}
-
 .noticiasMain {
     grid-area: noticias;
-    margin-top: 20px;
-    margin-left: 40px;
 }
 
 .sidebarMain {
@@ -106,5 +99,6 @@
         text-align: center;
         font-family: Heebo;
         font-size: x-large;
+        margin-top: 15px;
     }
 }
