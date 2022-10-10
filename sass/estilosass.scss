@@ -1,10 +1,8 @@
 @import "historia";
 @import "index";
-@import "media";
 @import "multimedia";
 @import "socios";
 @import "tienda";
-@import "media";
 @import "universalidades";
 
 /*index*/
@@ -44,7 +42,8 @@
             "subnoticia2"
             "subnoticia3";
         column-gap: 5px;
-        margin-left: 0px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
     .subnoticia1 {

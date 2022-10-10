@@ -30,8 +30,9 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
     grid-gap: 15px;
-    margin-left: 50px;
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 40px 0;
     overflow: hidden;
     img{
@@ -39,8 +40,9 @@
         vertical-align: top;
         height: 300px;
         object-fit: cover;
-    }
-    .gridmultimedi:hover img {
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.22);
+    &:hover {
         filter: blur(2px);
+        }
     }
 }

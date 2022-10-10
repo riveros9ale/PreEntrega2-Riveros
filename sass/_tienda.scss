@@ -72,15 +72,15 @@
     img {
         width: 100%;
         opacity: 0.5;
-    }
-    img:hover {
+    &:hover {
         opacity: 1;
+        }
     }
-    .product-item a {
+    a {
         display: block;
         width: 100%;
         padding: 8px 0;
-        background: #2D3E50;
+        background: #ba0000;
         color: #fff;
         text-align: center;
         text-decoration: none;

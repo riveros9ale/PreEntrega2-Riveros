@@ -1,3 +1,9 @@
+@mixin subnoticias {
+    background-color: rgba(235, 235, 235, 0.536);
+        border-radius: 10px;
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.22);
+}
+
 .partidos {
     display: flex;
     flex-direction: column;
@@ -65,20 +71,17 @@
     grid-template-areas:
         "noticiasindex noticiasindex noticiasindex"
         "subnoticia1 subnoticia2 subnoticia3";
-    column-gap: 10px;
+    column-gap: 40px;
     .subnoticia1 {
-        background-color: #f3f3f3;
-        border-radius: 10px;
+        @include subnoticias;
         grid-area: subnoticia1;
     }
     .subnoticia2 {
-        background-color: #f3f3f3;
-        border-radius: 10px;
+        @include subnoticias;
         grid-area: subnoticia2;
     }
     .subnoticia3 {
-        background-color: #f3f3f3;
-        border-radius: 10px;
+        @include subnoticias;
         grid-area: subnoticia3;
     }
     .hrefSubnoticia>a {
