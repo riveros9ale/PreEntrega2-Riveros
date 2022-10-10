@@ -9,13 +9,13 @@
         flex-direction: column;
         text-align: center;
         margin: 15px 0px;
-    }
-    h1:after {
+    &:after {
         content: '';
         width: 100%;
         height: 1px;
         background: #C7C7C7;
         margin: 20px 0;
+        }
     }
 }
 
@@ -42,7 +42,25 @@
         object-fit: cover;
         box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.22);
     &:hover {
-        filter: blur(2px);
-        }
+        opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
     }
 }
