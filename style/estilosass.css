@@ -132,12 +132,11 @@ footer .copyright .copy {
 .partidos {
   display: flex;
   flex-direction: column;
-  align-content: space-between;
   align-items: center;
   background-color: rgba(235, 235, 235, 0.536);
-  padding: 20px 70px 2px 70px;
+  padding: 5px 70px 5px 70px;
   border-radius: 30px;
-  margin-top: 20px;
+  margin-top: 60px;
   margin-right: 20px;
   border: 2px solid black;
   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.22);
@@ -152,9 +151,12 @@ footer .copyright .copy {
 
 .proximospartidos1 {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   border-radius: 20px;
+}
+.proximospartidos1 div > img {
+  padding: 2px;
 }
 
 .sidebarMain {
@@ -591,6 +593,7 @@ footer .copyright .copy {
     background-color: rgba(235, 235, 235, 0.536);
     padding: 10px 50px 2px 50px;
     border-radius: 30px;
+    margin-left: 20px;
   }
   .subnoticias {
     justify-content: center;
