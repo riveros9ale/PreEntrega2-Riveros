@@ -1,35 +1,9 @@
+@import "mediaqueries";
+
 @mixin subnoticias {
     background-color: rgba(235, 235, 235, 0.536);
         border-radius: 10px;
         box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.22);
-}
-
-.partidos {
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    align-items: center;
-    background-color: rgba(235, 235, 235, 0.536);
-    padding: 20px 70px 2px 70px;
-    border-radius: 30px;
-    margin-top: 20px;
-    margin-right: 20px;
-    border: 2px solid black;
-    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.22);
-}
-
-.proximospartidos {
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.proximospartidos1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
 }
 
 .main {
@@ -44,25 +18,6 @@
 
 .noticiasMain {
     grid-area: noticias;
-}
-
-.sidebarMain {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 5px;
-    grid-area: sidebar;
-}
-
-.sponsors {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-around;
-    background-color: rgba(235, 235, 235, 0.536);
-    padding: 10px;
-    grid-area: patrocinadores;
 }
 
 .subnoticias {
@@ -112,3 +67,51 @@
         margin-top: 15px;
     }
 }
+
+.partidos {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    background-color: rgba(235, 235, 235, 0.536);
+    padding: 20px 70px 2px 70px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.22);
+}
+
+.proximospartidos {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proximospartidos1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.sidebarMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    grid-area: sidebar;
+}
+
+.sponsors {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: rgba(235, 235, 235, 0.536);
+    padding: 10px;
+    grid-area: patrocinadores;
+}
+

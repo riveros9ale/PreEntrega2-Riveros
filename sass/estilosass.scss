@@ -1,9 +1,10 @@
-@import "historia";
+@import "mediaqueries";
+@import "universalidades";
 @import "index";
+@import "historia";
 @import "multimedia";
 @import "socios";
 @import "tienda";
-@import "universalidades";
 @import "extends";
 
 /*index*/
@@ -86,7 +87,7 @@
 
 /*Socios*/
 
-@media screen and (max-width: 520px) {
+/*@media screen and (max-width: 520px) {
     .screen-body {
         flex-direction: column;
     }
