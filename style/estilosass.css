@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
-.multimedia {
+.titles, .wrap, .historia {
   max-width: 1100px;
   width: 90%;
   margin: auto;
 }
-.multimedia h1 {
+.titles h1, .wrap h1, .historia h1 {
   color: #494B4D;
   font-weight: 400;
   display: flex;
@@ -12,7 +12,7 @@
   text-align: center;
   margin: 15px 0px;
 }
-.multimedia h1:after {
+.titles h1:after, .wrap h1:after, .historia h1:after {
   content: "";
   width: 100%;
   height: 1px;
@@ -38,14 +38,12 @@
 .historia_flex h3 {
   color: #005d79;
 }
-
-.hover02 img {
+.historia_flex img {
   width: 250px;
   height: auto;
   transition: 0.3s ease-in-out;
 }
-
-.hover02:hover img {
+.historia_flex img:hover {
   width: 450px;
 }
 
@@ -390,12 +388,12 @@
   margin: 0 5px;
 }
 
-.wrap {
+.titles, .wrap, .historia {
   max-width: 1100px;
   width: 90%;
   margin: auto;
 }
-.wrap h1 {
+.titles h1, .wrap h1, .historia h1 {
   color: #494B4D;
   font-weight: 400;
   display: flex;
@@ -403,7 +401,7 @@
   text-align: center;
   margin: 15px 0px;
 }
-.wrap h1:after {
+.titles h1:after, .wrap h1:after, .historia h1:after {
   content: "";
   width: 100%;
   height: 1px;
@@ -504,27 +502,22 @@ footer {
   width: 100%;
   background: #a0000d;
 }
-
-.redessociales {
+footer .redessociales {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
 }
-
-.twitter:hover {
+footer .redessociales .instagram:hover {
   transform: scale(1.3);
 }
-
-.facebook:hover {
+footer .redessociales .facebook:hover {
   transform: scale(1.3);
 }
-
-.instagram:hover {
+footer .redessociales .twitter:hover {
   transform: scale(1.3);
 }
-
-.direcciontelefono {
+footer .direcciontelefono {
   font-family: Heebo;
   font-size: small;
   color: white;
@@ -535,8 +528,10 @@ footer {
   align-items: flex-end;
   font-size: small;
 }
-
-.copyright {
+footer .direcciontelefono .h4Footer {
+  font-size: medium;
+}
+footer .copyright {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -544,13 +539,29 @@ footer {
   align-items: center;
   color: #ffffff;
 }
-
-.copy {
+footer .copyright .copy {
   font-size: small;
 }
 
-.h4Footer {
-  font-size: medium;
+.titles, .historia, .wrap {
+  max-width: 1100px;
+  width: 90%;
+  margin: auto;
+}
+.titles h1, .historia h1, .wrap h1 {
+  color: #494B4D;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 15px 0px;
+}
+.titles h1:after, .historia h1:after, .wrap h1:after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #C7C7C7;
+  margin: 20px 0;
 }
 
 /*index*/
