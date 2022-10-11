@@ -187,7 +187,7 @@ footer .copyright .copy {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 15px 0px;
+  margin: 5px 0px;
 }
 .titles h1:after, .wrap h1:after, .multimedia h1:after, .historia h1:after {
   content: "";
@@ -222,6 +222,14 @@ footer .copyright .copy {
 }
 .historia_flex img:hover {
   width: 450px;
+}
+
+.container-multimedia {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-self: center;
 }
 
 .flexMultimedia {
@@ -468,7 +476,7 @@ footer .copyright .copy {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 15px 0px;
+  margin: 5px 0px;
 }
 .titles h1:after, .wrap h1:after, .historia h1:after, .multimedia h1:after {
   content: "";
@@ -556,7 +564,7 @@ footer .copyright .copy {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 15px 0px;
+  margin: 5px 0px;
 }
 .titles h1:after, .historia h1:after, .multimedia h1:after, .wrap h1:after {
   content: "";
