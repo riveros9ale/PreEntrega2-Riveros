@@ -1,11 +1,3 @@
-@import "mediaqueries";
-
-@mixin subnoticias {
-    background-color: rgba(235, 235, 235, 0.536);
-        border-radius: 10px;
-        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.22);
-}
-
 .main {
     display: grid;
     grid-template-areas:
@@ -31,15 +23,21 @@
         "subnoticia1 subnoticia2 subnoticia3";
     column-gap: 40px;
     .subnoticia1 {
-        @include subnoticias;
+        background-color: rgba(235, 235, 235, 0.536);
+        border-radius: 10px;
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.22);
         grid-area: subnoticia1;
     }
     .subnoticia2 {
-        @include subnoticias;
+        background-color: rgba(235, 235, 235, 0.536);
+        border-radius: 10px;
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.22);
         grid-area: subnoticia2;
     }
     .subnoticia3 {
-        @include subnoticias;
+        background-color: rgba(235, 235, 235, 0.536);
+        border-radius: 10px;
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.22);
         grid-area: subnoticia3;
     }
     .hrefSubnoticia>a {
@@ -50,6 +48,9 @@
         color: white;
         padding: 10px;
         background-color: #a0000d;
+    }
+    a:hover{
+            color: #000000;
     }
     .imagensubnoticia {
         display: flex;

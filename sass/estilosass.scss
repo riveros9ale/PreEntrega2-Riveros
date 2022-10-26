@@ -1,4 +1,3 @@
-@import "mediaqueries";
 @import "universalidades";
 @import "index";
 @import "historia";
@@ -6,6 +5,7 @@
 @import "socios";
 @import "tienda";
 @import "extends";
+@import "media";
 
 /*index*/
 
@@ -82,6 +82,46 @@
         font-size: x-small;
     }
 
+}
+
+@media (max-width: 1312px) {
+    .main {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-areas:
+            "noticias noticias"
+            "noticias noticias"
+            "subnoticias subnoticias"
+            "sidebar sidebar"
+            "patrocinadores patrocinadores";
+    }
+}
+
+@media (max-width: 900px) {
+    .main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "noticias"
+            "noticias"
+            "subnoticias"
+            "sidebar"
+            "patrocinadores";
+    }
+
+    .subnoticias {
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-areas:
+            "noticiasindex"
+            "subnoticia1"
+            "subnoticia2"
+            "subnoticia3";
+        column-gap: 5px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 }
 
 /*Multimedia*/
