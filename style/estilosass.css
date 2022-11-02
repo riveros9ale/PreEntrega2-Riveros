@@ -228,6 +228,10 @@ footer .copyright .copy {
 .historia_flex img:hover {
   width: 450px;
 }
+.historia_flex p {
+  padding: 0px;
+  margin-top: 0px;
+}
 
 .container-multimedia {
   width: 100%;
@@ -406,7 +410,7 @@ footer .copyright .copy {
   padding: 10px 0;
   background: none;
   border: none;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid rgb(255, 255, 255);
   font-size: 14px;
   text-transform: uppercase;
   outline: none;
